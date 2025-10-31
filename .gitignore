@@ -1,6 +1,6 @@
 
 # Ignore project data (large or sensitive data files)
-data/
+data_/
 
 # Ignore instance folder (runtime configs / secrets)
 instance/
