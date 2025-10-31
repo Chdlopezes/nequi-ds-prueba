@@ -1,0 +1,22 @@
+
+# Ignore project data (large or sensitive data files)
+data/
+
+# Ignore instance folder (runtime configs / secrets)
+instance/
+
+ignore_dir/
+
+# Environment files
+.env
+
+# Ignore common editor and runtime artifacts
+__pycache__/
+**/__pycache__/
+*.py[cod]
+.vscode/
+.ipynb_checkpoints/
+
+
+# Local misc
+add 
