@@ -19,7 +19,7 @@ def home():
 @app.route("/update_transactions", methods=["GET"])
 def update_transactions():
     try:
-        etl_new_data(app, db)
+        etl_new_data(db)
     except Exception as e:
         return jsonify({"error": e}), 500
     return jsonify({"state": "success"}), 200
